@@ -9,7 +9,7 @@
     tools:showIn="@layout/activity_main">
 
     <!--all attributes-->
-    <com.tsuryo.swipeablerv.SwipeableRecyclerView
+    <com.sujal.swipeablerv.SwipeableRecyclerView
         android:id="@+id/rv"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

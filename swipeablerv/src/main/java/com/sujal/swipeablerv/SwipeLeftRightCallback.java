@@ -1,4 +1,4 @@
-package com.tsuryo.swipeablerv;
+package com.sujal.swipeablerv;
 
 import android.content.Context;
 import android.graphics.Canvas;

@@ -21,7 +21,7 @@ Android 5.0+ API 21+
 # Usage
 ### Java
 ```Java
-        SwipeableRecyclerView rv = findViewById(R.id.rv);
+        /*SwipeableRecyclerView rv = findViewById(R.id.rv);
         rv.setLayoutManager(new LinearLayoutManager(this));
         rv.setAdapter(mAdapter);
 
@@ -42,7 +42,7 @@ Android 5.0+ API 21+
 	/*
          * Additional attributes:
          * */
-        rv.setRightBg(R.color.blue);
+       /* rv.setRightBg(R.color.blue);
         rv.setRightImage(R.drawable.ic_v);
         rv.setRightText("Right Text");
 
@@ -51,7 +51,7 @@ Android 5.0+ API 21+
         rv.setLeftText("Left Text");
 
         rv.setTextSize(62);
-        rv.setTextColor(R.color.white);
+        rv.setTextColor(R.color.white); */
 ```
 ### XML
 ```XML

@@ -1,10 +1,10 @@
-package com.tsuryo.swipeablervexample;
+package com.sujal.swipeablervexample;
 
 import android.os.Bundle;
 
 import com.google.android.material.snackbar.Snackbar;
-import com.tsuryo.swipeablerv.SwipeLeftRightCallback;
-import com.tsuryo.swipeablerv.SwipeableRecyclerView;
+import com.sujal.swipeablerv.SwipeLeftRightCallback;
+import com.sujal.swipeablerv.SwipeableRecyclerView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -16,9 +16,6 @@ import android.view.MenuItem;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by Tsur Yohananov on 2020-05-07.
- */
 
 public class MainActivity extends AppCompatActivity {
 
@@ -58,34 +55,21 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        /*rv.setRightBg(R.color.blue);
-        rv.setRightImage(R.drawable.ic_v);
-        rv.setRightText("Right Text");
-
-        rv.setLeftBg(R.color.red);
-        rv.setLeftImage(R.drawable.ic_trash);
-        rv.setLeftText("Left Text");
-
-        rv.setTextSize(62);
-        rv.setTextColor(R.color.white);*/
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
+
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
+
         int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             return true;
         }
@@ -95,9 +79,9 @@ public class MainActivity extends AppCompatActivity {
 
     private void createList() {
         mList = new ArrayList<>();
-        //  generate example list
+
         for (int i = 0; i < 20; i++) {
-            mList.add("Item - " + i);
+            mList.add("Sujal - " + i);
         }
         mAdapter = new Adapter(mList);
     }

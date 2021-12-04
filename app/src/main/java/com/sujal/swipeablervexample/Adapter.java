@@ -1,4 +1,4 @@
-package com.tsuryo.swipeablervexample;
+package com.sujal.swipeablervexample;
 
 import android.view.LayoutInflater;
 import android.view.View;
